@@ -12,19 +12,19 @@ $names = array(
 
 
 
-// if( in_array("omar" , $names ,true)){
-//     echo "yes it is exist" . "<br>";
+// if( in_array("samir" , $names)){
+//    echo "yes it is exist"  . "<br>";
 // }
 
 
-// $lang = array_search("badr" ,$names ,true);
+//  $lang = array_search("badr" ,$names ,true);
 
 
-// echo "yes Its Found In Index " . $lang . "and its Name is " . $names[$lang];
+// echo "yes Its Found In Index " . $lang . " and its Name is " . $names[$lang];
 
 
-if(array_key_exists("omar", $names)){
-    echo "yes its found " ;
+ if(array_key_exists("omar", $names)){
+     echo "yes its found " ;
+ }
 
-}
 ?>

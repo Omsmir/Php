@@ -26,7 +26,7 @@ print_r($new);
 
 // arsort($names , SORT_NUMERIC);
 // ksort($names ); //key sort && key reversed sort
-krsort($names );
+ arsort($names );
 
 echo "<pre>";
 

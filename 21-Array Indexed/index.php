@@ -28,16 +28,16 @@ echo "</ul>";
 
 
 
-// echo "<pre>";
+echo "<pre>";
 
-// print_r($names);
+print_r($names);
 
-// echo "</pre>";
+echo "</pre>";
 
-// echo $names[0] . " ";
+echo $names[0] . " ";
 
-// echo $names[1] . " ";
-// echo $names[2];
+echo $names[1] . " ";
+echo $names[2];
 
 
 ?>

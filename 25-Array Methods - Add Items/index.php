@@ -5,7 +5,7 @@ $names = array("html","css","js","ajax");
 
 // echo array_pop($names) . "<br>";
 
-// echo array_rand($names);
+echo array_rand($names)."<br>";
 
 // echo array_shift($names) . "<br>";
 
@@ -32,7 +32,7 @@ echo "</pre>";
 
 // $calc = array(1,2,6,3);
 
-// $var = array_sum($calc);
+// $var = array_sum($calc); //get the sum of all numbers 
 
 // print_r($var);
 
@@ -58,7 +58,7 @@ echo "<br>";
 $newArr = array_chunk($calc1 , 1);
 
 
-print_r(array_chunk($calc1, 2));
+print_r(array_chunk($calc1, 3));
 
 
 

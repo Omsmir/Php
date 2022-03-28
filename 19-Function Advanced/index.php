@@ -32,15 +32,13 @@ function getTicket($user , $age){
 // echo getTicket("omar" , 18);
 
 function makeFrame($element){
-    $frame = "<div class='omar-1'>" ;
-    $frame .= $element;
-    $frame .= "</div>";
+   $frame = "<div class='omar-1'>" . $element . "</div>";
 
 
-    return $frame;
+    echo $frame;
 }
 
-echo makeFrame(getTicket("omar" , 18));
+makeFrame(getTicket("omar" , 18));
 
 
 ?>

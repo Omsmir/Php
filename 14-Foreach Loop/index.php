@@ -16,8 +16,9 @@ $countries = array (
     "Pl"=>"Palestine",
     "po"=> "Poland");
 
-foreach( $countries as $key => $value){
-    echo $key . " => " . $value ."<br>";
+foreach($countries as $keys => $value){
+    echo $keys . " => " . $value . "<br>";
+
 }
 
 ?>

@@ -15,7 +15,7 @@ echo "<ul>";
 
 for ( $i = 0 ; $i < count($langs); $i++){
 
-    echo "<li>" . $langs[$i] . "</li>";
+    echo "<li style='list-style:none;'>" . $langs[$i] . "</li>";
 
 };
 
@@ -23,7 +23,7 @@ echo "</ul>";
 
 ?>
 
-<!-- 
+
 <select name="year">
 
 <?php 
@@ -34,4 +34,4 @@ for($year = 1900 ; $year <= 2022 ; $year++){
 
 ?>
 
-</select> -->
+</select>

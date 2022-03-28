@@ -24,7 +24,7 @@ print_r($names);
 
 echo $names["day Four"][0][2];
 // foreach($names as $keys => $value){
-//     echo "<li>". $keys . " => " . $value[0] ."</li>";
+//     echo "<li>". $keys . " => " . $value ."</li>";
 
 // }
 

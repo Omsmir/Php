@@ -1,6 +1,6 @@
 <?php 
 
-// $file = @fopen("omar.txt" , "r") or die ("This File Is Not Found")
+$file = @fopen("omar.txt" , "r") or die ("This File Is Not Found");
 
 
 // include("inc.php");
@@ -15,6 +15,6 @@ $pass = "HelloOmar";
 $db = "Ourdatabase";
 
 
-@mysqli_connect($server,$user,$pass,$db) or die("<h1> Request Timed Out </h1>");
+@mysqli_connect($server,$user,$pass,$db) or die("<h1 style='color: white; background: green; width:fit-content;'> Request Timed Out </h1>");
 
 ?>

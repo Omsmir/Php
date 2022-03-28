@@ -11,7 +11,7 @@
 
 function concat($num){
 
-    $result = $num + $num ;
+    $result = $num * $num ;
 
     return $result ;
 

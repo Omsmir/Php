@@ -12,6 +12,7 @@ true => "Not false"
 print_r($names);
 
 $names["php"] = "30%";
+$names[25] = "30%";
 
 echo "<ul>";
 

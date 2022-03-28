@@ -1,26 +1,22 @@
 <?php
 
 
-// function say($fname , $lname , $age ){
+function say($fname , $lname , $age ){
 
-//     echo "Hello " . $fname . $lname . "And My Age Is ". $age . ($age * 5) ;
-// }
+    echo "Hello " . $fname . $lname . "And My Age in Days Is ".  ($age * 365) ."<br>";
+}
 
-// say("omar " , "samir " , 18 );
+say("omar " , "samir " , 18 );
 
 
 function generateYears($start , $end){
+    echo "<select name='year'>";
 
-    echo "<select name='years'";
-
-    for ($i = $start ; $i <= $end ; $i++){
-        echo "<option value='$i'>" . $i . "</option>";
+    for($i = $start ; $i <= $end ; $i++){
+        echo "<option>". $i . "</option>";
     }
-
     echo "</select>";
+}
 
-};
-
-generateYears(1950 , 2022);
-
+generateYears(1999,2022);
 ?>
